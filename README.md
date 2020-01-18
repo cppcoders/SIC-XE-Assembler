@@ -16,6 +16,19 @@
 * Extended Instruction (4bit Instruction)
 * Floating Point Number
 * External Symbol Reference & Define
+
+## How it works :
+Using two passes ...
+* Pass one
+  * Assign addresses to all statements in source code
+  * Save values (addresses) assigned to labels for use in pass two
+  * Process directives
+* Pass two
+  * Translate instructions
+  * Convert labels to addresses
+  * Generate values defined by BYTE and WORD
+  * Process the directives not done in pass one
+  * Write object code to output file
 ## Sample input :
 ````
 COPY START 0
