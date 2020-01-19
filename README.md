@@ -13,8 +13,6 @@
     *   1. Program Counter (PC Register)
     *   2. Base (Base Register)
 * Extended Instruction (4bit Instruction)
-* Floating Point Number
-* External Symbol Reference & Define
 
 ## How it works :
 Using two passes ...
