@@ -1,6 +1,6 @@
 # SIC/XE ASSEMBLER
 ##  What is SIC/XE Machhine
-* SIC Machine's eXension Edition
+* SIC Machine's extended Edition
 * you can read article at [SIC/XE](https://en.wikipedia.org/wiki/Simplified_Instructional_Computer) on wikipedia
 ## Function
 * Control Section
